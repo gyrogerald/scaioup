@@ -5,8 +5,8 @@ ns_domain_cloudflare() {
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
 	SUB_DOMAIN=${SUB}.drasia.my.id
 	NS_DOMAIN=dns.ku${SUB_DOMAIN}
-	CF_ID=geraldy.olang@gmail.com
-        CF_KEY=7e4beb2b60f992a15f4c65f11caa3faea0855
+	CF_ID=geraldy.olan@gmail.com
+        CF_KEY=7e4beb2b60f992a15f4c65f11caa3faea08557
 	set -euo pipefail
 	IP=$(wget -qO- ipinfo.io/ip)
 	echo "Updating DNS NS for ${NS_DOMAIN}..."
