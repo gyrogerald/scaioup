@@ -15,7 +15,7 @@ locality=none
 organization=none
 organizationalunit=none
 commonname=none
-email=Arta1ove@gmail.com
+email=Arta1ove11@gmail.com
 curl -sS https://raw.githubusercontent.com/tridebleng/maule/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
 chmod +x /etc/pam.d/common-password
 cd
@@ -205,7 +205,7 @@ wget -O add-bot-panel "https://raw.githubusercontent.com/tridebleng/maule/main/m
 wget -O hapus-bot "https://raw.githubusercontent.com/tridebleng/maule/main/menu/hapus-bot.sh"
 wget -O stop-bot "https://raw.githubusercontent.com/tridebleng/maule/main/menu/stop-bot.sh"
 wget -O restart-bot "https://raw.githubusercontent.com/tridebleng/maule/main/menu/restart-bot.sh"
-wget -O menu "https://raw.githubusercontent.com/tridebleng/maule/main/menu/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/gyrogerald/scaioup/main/menu/menu.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/tridebleng/maule/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/tridebleng/maule/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/tridebleng/maule/main/menu/menu-vless.sh"
