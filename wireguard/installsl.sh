@@ -1,6 +1,6 @@
 #!/bin/bash
 ns_domain_cloudflare() {
-	DOMAIN=kazekage.my.id
+	DOMAIN=drasia.my.id
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
 	SUB_DOMAIN=${SUB}.drasia.my.id
